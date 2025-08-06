@@ -11,13 +11,7 @@ void main()async
   await Firebase.initializeApp(
      options: FirebaseOptions(
 
-apiKey: "AIzaSyDGU-jXUMbzsTMgw8tYZM0Z06G4gQ8GCoc",
-    authDomain: "dbclient-fc5bb.firebaseapp.com",
-    projectId: "dbclient-fc5bb",
- storageBucket: "dbclient-fc5bb.appspot.com", 
-    messagingSenderId: "1024097477667",
-    appId: "1:1024097477667:web:96ffec4736171ac121bd96",
-    measurementId: "G-79ZTW32994"
+//add your firebase private key
   )
   );
 
